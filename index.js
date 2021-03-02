@@ -15,7 +15,7 @@ import {
 } from 'react-native';
 
 const width = window.innerWidth;
-const height = indow.innerHeight;
+const height = window.innerHeight;
 
 const styles = StyleSheet.create({
   wrapper: {
