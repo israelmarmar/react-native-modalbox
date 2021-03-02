@@ -14,7 +14,9 @@ import {
   Keyboard
 } from 'react-native';
 
-const {height: SCREEN_HEIGHT, width: SCREEN_WIDTH} = Dimensions.get('window');
+const width = window.innerWidth;
+const height = indow.innerHeight;
+
 const styles = StyleSheet.create({
   wrapper: {
     backgroundColor: 'white'
