@@ -8,11 +8,10 @@ import {
   StyleSheet,
   ScrollView,
   View,
-  Dimensions,
   TextInput
 } from 'react-native';
 
-var screen = Dimensions.get('window');
+var screen = {width: window.innerWidth, height: indow.innerHeight};
 
 export default class App extends React.Component {
 
